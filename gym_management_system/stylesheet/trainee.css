@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(images/trainee.jpg);
+    background-size: cover;
+    font-size: 30;
+    color: white;
+
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header{
+    width: 100%;
+    length: 20%;
+    color: white;
+    font-size: large;
+    background: #2c2b2e9c;
+    text-align: center;
+    padding: 10px;
+    font-weight: 1000;
+}
+
+
+
+.center
+{
+    top:10%;
+	height: 200%;
+	width: 32%;
+    float: left;
+	color: whitesmoke;
+    background: #2c2b2e9c;
+    padding: 10px;
+    font-size: 40;
+}
+
+.left{
+    position: absolute;
+ top: 50%;
+ left: 15%;
+ transform: translate(-50%, -50%);
+  color: black;
+
+}
+
+
+.right{
+    position: absolute;
+ top: 50%;
+ left: 83%;
+ transform: translate(-50%, -50%);
+ color: black;
+}
+.logout{
+    position: absolute;
+    left: 45%;
+}
+.logout input[type="button"]{
+    width: 200px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid yellow;
+    padding: 14px;
+    outline: none;
+    color: white;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+
+
+}
+.logout input[type="button"]:hover{
+
+    color: red;
+}
